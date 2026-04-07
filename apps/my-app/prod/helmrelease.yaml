@@ -10,4 +10,4 @@ spec:
   values:
     image:
       repository: cdappacr.azurecr.io/my-app
-      tag: PLACEHOLDER_PROD
+      tag: 5b40a2b6cb08e662cd9e74bf051aff3f347d5cdc
