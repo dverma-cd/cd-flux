@@ -12,3 +12,6 @@ FluxCD repository that drives AKS deployments for `my-app`.
 
 ## Manual tweaks
 - Edit the HelmRelease you want and push to `master` (or merge the release PR). Flux will reconcile and deploy.
+
+## Verification
+- Workflows and tag bump automation were configured and test-run via Codex CLI (ChatGPT-coded). Dev workflow now succeeds; prod workflow creates a release branch and PR targeting `master` as expected.
