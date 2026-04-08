@@ -10,4 +10,4 @@ spec:
   values:
     image:
       repository: cdappacrrgcdapp.azurecr.io/backend
-      tag: 66258ab2d62aaaec5cc1f01ba2971c1391a460df
+      tag: a4698ea95e7b529c031d07733b75d01f4b807470
