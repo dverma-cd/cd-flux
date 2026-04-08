@@ -10,4 +10,4 @@ spec:
   values:
     image:
       repository: cdappacr.azurecr.io/my-app
-      tag: 8cc26b189dffbf8235a70121d046258cddf25ebb
+      tag: 8ad8e8430d80655117a0eaef5482ac173fdbd823
