@@ -10,4 +10,4 @@ spec:
   values:
     image:
       repository: cdappacrrgcdapp.azurecr.io/frontend
-      tag: PLACEHOLDER_FE_PROD
+      tag: 1e78d1fa942462b311e78f3fceff3232550c4f49
