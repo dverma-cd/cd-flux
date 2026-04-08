@@ -1,0 +1,13 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: frontend-dev
+  namespace: default
+spec:
+  chart:
+    spec:
+      chart: frontend
+  values:
+    image:
+      repository: cdappacrrgcdapp.azurecr.io/frontend
+      tag: PLACEHOLDER_FE_DEV

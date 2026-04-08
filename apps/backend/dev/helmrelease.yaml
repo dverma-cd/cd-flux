@@ -1,0 +1,13 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: backend-dev
+  namespace: default
+spec:
+  chart:
+    spec:
+      chart: backend
+  values:
+    image:
+      repository: cdappacrrgcdapp.azurecr.io/backend
+      tag: PLACEHOLDER_BE_DEV
