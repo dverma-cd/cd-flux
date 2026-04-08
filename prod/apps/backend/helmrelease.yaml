@@ -10,4 +10,4 @@ spec:
   values:
     image:
       repository: cdappacrrgcdapp.azurecr.io/backend
-      tag: PLACEHOLDER_BE_PROD
+      tag: 888b2149df92b07d8cfea8dc5fc1f3b1442df53b
